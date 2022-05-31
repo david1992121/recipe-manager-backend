@@ -1,0 +1,39 @@
+[
+{
+    "model": "basics.amountunit",
+    "pk": 1,
+    "fields": {
+        "name": "grams"
+    }
+},
+{
+    "model": "basics.amountunit",
+    "pk": 2,
+    "fields": {
+        "name": "kilograms"
+    }
+},
+{
+    "model": "basics.amountunit",
+    "pk": 3,
+    "fields": {
+        "name": "centiliter"
+    }
+},
+{
+    "model": "basics.amountunit",
+    "pk": 4,
+    "fields": {
+        "name": "liter"
+    }
+},
+{
+    "model": "basics.currency",
+    "pk": 1,
+    "fields": {
+        "name": "euro",
+        "code": "EUR",
+        "rate": "1.000"
+    }
+}
+]
