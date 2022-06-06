@@ -157,3 +157,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CORS_ORIGIN_ALLOW_ALL = True
 
 COST_PRECISION = 4
+
+CSRF_TRUSTED_ORIGINS = ['http://*', 'https://*']
