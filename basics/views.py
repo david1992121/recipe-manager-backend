@@ -1,5 +1,8 @@
+from time import sleep
 from rest_framework.generics import ListAPIView
 from rest_framework import filters
+from rest_framework.decorators import api_view
+from rest_framework.response import Response
 from basics.serializers import AmountUnitSerializer, CurrencySerializer
 from .models import AmountUnit, Currency
 
@@ -16,3 +19,8 @@ class CurrencyView(ListAPIView):
     serializer_class = CurrencySerializer
     filter_backends = [filters.OrderingFilter]
     ordering = ('id', )
+
+@api_view(['GET'])
+def handle_delay(request):
+    sleep(5)
+    return Response({"result": "ok"}, status=200)
