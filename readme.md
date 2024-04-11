@@ -1,5 +1,5 @@
-[![CI](https://github.com/david1992121/recipe-manager-backend/actions/workflows/ci.yml/badge.svg)](https://github.com/david1992121/recipe-manager-backend/actions/workflows/ci.yml)
-[![codecov](https://codecov.io/gh/david1992121/recipe-manager-backend/branch/main/graph/badge.svg?token=r0XZ8mDmON)](https://codecov.io/gh/david1992121/recipe-manager-backend)
+[![CI](https://github.com/metalgear-dev/recipe-manager-backend/actions/workflows/ci.yml/badge.svg)](https://github.com/metalgear-dev/recipe-manager-backend/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/metalgear-dev/recipe-manager-backend/graph/badge.svg?token=r0XZ8mDmON)](https://codecov.io/gh/metalgear-dev/recipe-manager-backend)
 
 # Recipe Manager
 
